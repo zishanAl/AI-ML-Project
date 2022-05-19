@@ -23,6 +23,6 @@ app.use("/", require("./backend/routes/Resource"));
 app.use("/", require("./backend/routes/news"));
 app.use("/", require("./backend/routes/updPassword"));
 
-app.listen(process.env.PORT || 5000, process.env.IP, () =>
+app.listen(process.env.PORT || 7898, process.env.IP, () =>
   console.log("Server is Running at PORT 5000....")
 );
